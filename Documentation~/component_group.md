@@ -6,7 +6,7 @@ Essentially a `ComponentGroup` is constructed with a set of required components,
 
 The `ComponentGroup` lets you extract individual arrays. All these arrays are guaranteed to be in sync (same length and the index of each array refers to the same `Entity`).
 
-Generally speaking `GetComponentGroup` is used rarely, since `ComponentGroup` Injection and `IJobProcessComponetnData` is simpler and more expressive.
+Generally speaking `GetComponentGroup` is used rarely, since `ComponentGroup` Injection and `IJobProcessComponentData` is simpler and more expressive.
 
 However the `ComponentGroup` API can be used for more advanced use cases like filtering a `Component Group` based on specific `SharedComponent` values.
 
